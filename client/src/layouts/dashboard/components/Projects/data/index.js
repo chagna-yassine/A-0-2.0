@@ -71,10 +71,8 @@ export default function data() {
 
   return {
     columns: [
-      { Header: "companies", accessor: "companies", width: "45%", align: "left" },
-      { Header: "members", accessor: "members", width: "10%", align: "left" },
-      { Header: "budget", accessor: "budget", align: "center" },
-      { Header: "completion", accessor: "completion", align: "center" },
+      { Header: "Classement", accessor: "Classement", width: "10%", align: "left" },
+      { Header: "nom", accessor: "members", width: "90%", align: "left" },
     ],
 
     rows: [

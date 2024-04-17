@@ -2,6 +2,8 @@ import { useMemo } from "react";
 
 // porp-types is a library for typechecking of props
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
+
 
 // react-chartjs-2 components
 import { Bar } from "react-chartjs-2";
@@ -52,7 +54,16 @@ function ReportsBarChart({ color, title, description, date, chart }) {
             </MDTypography>
           </MDBox>
         </MDBox>
-        {/* <a src="" >see more</a> */}
+        <MDTypography
+          component={Link}
+          to="#"
+          variant="button"
+          color="info"
+          fontWeight="medium"
+          textGradient
+        >
+          see more
+        </MDTypography>
       </MDBox>
     </Card>
   );
